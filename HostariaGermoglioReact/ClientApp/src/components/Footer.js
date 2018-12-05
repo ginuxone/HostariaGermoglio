@@ -6,11 +6,15 @@ export class Footer extends Component {
     
     render() {
         return (
-            <Footer>
+            <div className="Footer">
                 <h3>
-                    @{new Date().getFullYear()}Hostaria Germoglio
+                    @{new Date().getFullYear()} Hostaria Germoglio
+                    <br/>
+                    Zoila Ruth Ratto
+                    <br />
+                    P.IVA 
                 </h3>
-            </Footer>
+            </div>
         );
     }
 }
