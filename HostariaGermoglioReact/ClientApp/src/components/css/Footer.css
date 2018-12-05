@@ -1,13 +1,16 @@
 ﻿@media (min-width: 768px) {
-    /* On large screens, convert the Foore to a vertical sidebar */
-    .footer {
-        height: auto;
-        width: 100%;
-        float: none;
-        border-top: 1px solid #444;
-        padding: 0;
-        margin: 0;
-        position:absolute;
+    /* On large screens, convert the Footer to a vertical sidebar */
+    .Footer {
+        position:relative;
         bottom:0px;
+        opacity:0.3;
+        background-color:#151212;
+        width:100%;
+        font-size:15px;
+        text-align:center;
+    }
+    .Footer h3{
+        color:whitesmoke;
+        opacity:1;
     }
 }
